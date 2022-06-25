@@ -16,11 +16,11 @@
 		}
 	],
 	"require": {
-		"php": ">=7.4",
-		"guzzlehttp/guzzle": "~5.3"
+		"php": ">=7.4|^7.3|^8.0",
+		"guzzlehttp/guzzle": "~5.3|^7.2"
 	},
 	"require-dev": {
-		"phpunit/phpunit": "^4.8"
+		"phpunit/phpunit": "^4.8|^9"
 	},
 	"suggest": {
 		"symfony/http-foundation": "Needed for the Trello webhook service"
